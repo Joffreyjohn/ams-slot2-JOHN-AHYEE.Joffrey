@@ -18,6 +18,8 @@ empty:
     ret
 end:
     dec rdi
+    sub rdi,2
+    add rdi,1
     ;; cmp byte[rdi],90
     ;; jle substrat
     ;; sub rdi,2
